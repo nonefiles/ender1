@@ -3,25 +3,6 @@ import ProjectsClient from "./projects-client";
 import { getTranslations } from "next-intl/server";
 import { stkProjects } from "@/data/projects";
 
-interface Project {
-  id: number;
-  name: string;
-  description: string;
-  details: string;
-  category: string;
-  location: string;
-  beneficiaries: string;
-  status: string;
-  startDate: string;
-  endDate?: string;
-  tags: string[];
-  progress: number;
-  partners?: string[];
-  participants?: string;
-  applicationCount?: number;
-  imageUrl?: string;
-}
-
 export default async function ProjectsPage({
   params: { locale }
 }: {
@@ -69,6 +50,7 @@ export default async function ProjectsPage({
   });
 
   // Get all translations at once with fallbacks
+  // This object structure is passed to the client component
   const translations = {
     title: getTranslation('title', 'Projelerimiz'),
     subtitle: getTranslation('subtitle', 'Engelleri Aşın Derneği\'nin yürüttüğü ulusal ve uluslararası projeler'),
@@ -84,12 +66,13 @@ export default async function ProjectsPage({
       youthProject: getTranslation('categories.youthProject', 'Erasmus+ Gençlik Projesi'),
       discoverEU: getTranslation('categories.discoverEU', 'DiscoverEU')
     },
+    // Düzeltme: 'status' yerine 'statuses' anahtarları kullanılarak hata giderildi
     status: {
-      completed: getTranslation('status.completed', 'Tamamlandı'),
-      ongoing: getTranslation('status.ongoing', 'Devam Ediyor'),
-      applications: getTranslation('status.applications', 'Başvurular Açık'),
-      approved: getTranslation('status.approved', 'Onaylandı'),
-      active: getTranslation('status.ongoing', 'Aktif')
+      completed: getTranslation('statuses.completed', 'Tamamlandı'),
+      ongoing: getTranslation('statuses.ongoing', 'Devam Ediyor'),
+      applications: getTranslation('statuses.applications', 'Başvurular Açık'),
+      approved: getTranslation('statuses.approved', 'Onaylandı'),
+      active: getTranslation('statuses.active', 'Aktif') // 'active' anahtarı artık doğrudan kullanılıyor
     },
     labels: {
       location: getTranslation('labels.location', 'Konum'),
