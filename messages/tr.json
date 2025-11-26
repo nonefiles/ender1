@@ -268,7 +268,9 @@
       "messagePlaceholder": "Mesajınızı buraya yazın...",
       "privacy": "Gizlilik politikasını okudum ve kabul ediyorum.",
       "submit": "Mesaj Gönder",
-      "alert": "Mesajınız başarıyla gönderildi!"
+      "alert": "Mesajınız başarıyla gönderildi!",
+      "successAlert": "Mesajınız başarıyla gönderildi!",
+      "errorAlert": "Mesajınız gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
     },
     "achievements": {
       "1": {
@@ -363,26 +365,41 @@
   "projects": {
     "title": "Projelerimiz",
     "subtitle": "En son çalışmalarımızı keşfedin",
+    "pageTitle": "Projelerimiz",
+    "pageDescription": "Etki yaratan Erasmus+ ve yerel projelerimizi keşfedin.",
     "viewDetails": "Detayları Gör",
     "applyNow": "Başvur",
     "closeDetails": "Kapat",
+    "projectDetails": "Proje Detayları",
     "categories": {
       "all": "Tümü",
       "youthWorkersMobility": "Gençlik Çalışanları Hareketliliği",
       "youthExchange": "Gençlik Değişimi",
       "europeanSolidarityCorps": "Avrupa Dayanışma Programı",
+      "europeanSolidarityCorps2": "Avrupa Dayanışma Programı",
       "socialInclusion": "Sosyal İçerme",
       "youthWorkshop": "Gençlik Çalıştayı",
       "trainingCourse": "Erasmus+ Eğitim Kursu",
       "internationalInitiative": "Uluslararası Girişim",
       "youthProject": "Erasmus+ Gençlik Projesi",
-      "discoverEU": "DiscoverEU"
+      "discoverEU": "DiscoverEU",
+      "internationalPartnership": "Uluslararası Ortaklık",
+      "capacityBuilding": "Kapasite Geliştirme",
+      "youthWorkerMobility": "Gençlik Çalışanı Hareketliliği"
     },
-    "status": {
+    "statuses": {
       "completed": "Tamamlandı",
       "ongoing": "Devam Ediyor",
+      "active": "Aktif",
       "applications": "Başvurular Açık",
       "approved": "Onaylandı"
+    },
+    "cta": {
+      "title": "Bir Proje Fikriniz mi Var?",
+      "description": "Yeni fikirlere ve iş birliklerine her zaman açığız. Projenizi birlikte hayata geçirmek için bizimle iletişime geçin.",
+      "contact": "Bize Ulaşın",
+      "call": "Ortaklık Çağrısı",
+      "contactUs": "İletişime Geç"
     },
     "labels": {
       "location": "Konum",
@@ -409,7 +426,7 @@
       "2": {
         "name": "NEET'ler İçin Geleceğe Köprü Projesi: İstanbul Çalıştayı",
         "description": "18-30 yaş arası NEET (eğitimde, istihdamda veya eğitimde olmayan) gençlere özel olarak düzenlenen 'Geleceğe Köprü' Projesi'nin ikinci çalıştayı İstanbul'da gerçekleşiyor! Karşılanan Giderler: Konaklama, Yeme - İçme, Seyahat Giderleri. Kendini geliştirmek isteyen tüm gençleri bu özel programa bekliyoruz!",
-        "details": "Başvuru Formu: https://forms.gle/LwYFejzGr3ychKGL8, Son Başvuru: 15 Kasım 2025",
+        "details": "Başvuru Formu: [https://forms.gle/LwYFejzGr3ychKGL8](https://forms.gle/LwYFejzGr3ychKGL8), Son Başvuru: 15 Kasım 2025",
         "location": "İstanbul",
         "beneficiaries": "NEET Gençliği",
         "status": "Applications Open",
@@ -516,7 +533,7 @@
             "dates": "25 – 28 Kasım 2025",
             "coverage": "Konaklama, Yeme - İçme, Seyahat Giderleri",
             "target": "Geleceğine yön vermek, yeni beceriler kazanmak ve kendini geliştirmek isteyen tüm gençler",
-            "applicationForm": "https://forms.gle/LwYFejzGr3ychKGL8",
+            "applicationForm": "[https://forms.gle/LwYFejzGr3ychKGL8](https://forms.gle/LwYFejzGr3ychKGL8)",
             "note": "Başvurusu onaylanan katılımcılara e-posta yoluyla bilgilendirme yapılacaktır."
           },
           "contactPerson": {
@@ -653,6 +670,7 @@
     "motivationPlaceholder": "Bu projeye neden katılmak istiyorsunuz?",
     "cancel": "İptal",
     "submitApplication": "Başvuruyu Gönder",
+    "submitting": "Gönderiliyor...",
     "totalApplications": "Toplam Başvuru",
     "acceptedApplications": "Kabul Edilen Başvurular",
     "targetParticipants": "Hedef Katılımcı",

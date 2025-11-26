@@ -268,7 +268,9 @@
       "messagePlaceholder": "Type your message here...",
       "privacy": "I have read and accept the privacy policy.",
       "submit": "Send Message",
-      "alert": "Your message has been sent successfully!"
+      "alert": "Your message has been sent successfully!",
+      "successAlert": "Your message has been sent successfully!",
+      "errorAlert": "An error occurred while sending your message. Please try again."
     },
     "achievements": {
       "1": {
@@ -363,26 +365,41 @@
   "projects": {
     "title": "Our Projects",
     "subtitle": "Discover our latest work",
+    "pageTitle": "Our Projects",
+    "pageDescription": "Discover our Erasmus+ and local projects creating impact.",
     "viewDetails": "View Details",
     "applyNow": "Apply",
     "closeDetails": "Close",
+    "projectDetails": "Project Details",
     "categories": {
       "all": "All",
       "youthWorkersMobility": "Youth Workers Mobility",
       "youthExchange": "Youth Exchange",
       "europeanSolidarityCorps": "European Solidarity Corps",
+      "europeanSolidarityCorps2": "European Solidarity Corps",
       "socialInclusion": "Social Inclusion",
       "youthWorkshop": "Youth Workshop",
       "trainingCourse": "Erasmus+ Training Course",
       "internationalInitiative": "International Initiative",
       "youthProject": "Erasmus+ Youth Project",
-      "discoverEU": "DiscoverEU"
+      "discoverEU": "DiscoverEU",
+      "internationalPartnership": "International Partnership",
+      "capacityBuilding": "Capacity Building",
+      "youthWorkerMobility": "Youth Worker Mobility"
     },
-    "status": {
+    "statuses": {
       "completed": "Completed",
       "ongoing": "Ongoing",
+      "active": "Active",
       "applications": "Applications Open",
       "approved": "Approved"
+    },
+    "cta": {
+      "title": "Have a Project Idea?",
+      "description": "We are always open to new ideas and collaborations. Contact us to bring your project to life together.",
+      "contact": "Contact Us",
+      "call": "Call for Partners",
+      "contactUs": "Contact Us"
     },
     "labels": {
       "location": "Location",
@@ -460,6 +477,12 @@
         "status": "Approved",
         "tags": "Capacity Building, Social Inclusion"
       }
+    },
+    "status": {
+      "completed": "Completed",
+      "ongoing": "Ongoing",
+      "applications": "Applications Open",
+      "approved": "Approved"
     }
   },
   "applications": {
@@ -653,6 +676,7 @@
     "motivationPlaceholder": "Why do you want to participate in this project?",
     "cancel": "Cancel",
     "submitApplication": "Submit Application",
+    "submitting": "Submitting...",
     "totalApplications": "Total Applications",
     "acceptedApplications": "Accepted Applications",
     "targetParticipants": "Target Participant",

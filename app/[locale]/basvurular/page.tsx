@@ -153,8 +153,10 @@ function ApplicationCard({ application, isCompleted = false }: ApplicationCardPr
   const [isApplying, setIsApplying] = useState(false)
   const [showSuccess, setShowSuccess] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
+  
+  // DÜZELTME: API 'name' bekliyor, bu yüzden state anahtarını 'fullName' yerine 'name' yaptık
   const [applicationForm, setApplicationForm] = useState({
-    fullName: "",
+    name: "", 
     email: "",
     phone: "",
     experience: "",
@@ -186,7 +188,7 @@ function ApplicationCard({ application, isCompleted = false }: ApplicationCardPr
 
       setTimeout(() => {
         setApplicationForm({
-          fullName: "",
+          name: "",
           email: "",
           phone: "",
           experience: "",
@@ -631,11 +633,11 @@ function ApplicationCard({ application, isCompleted = false }: ApplicationCardPr
                       <div className="space-y-2">
                         <Label htmlFor="fullName">{t("fullName")}</Label>
                         <Input
-                          id="fullName"
+                          id="name"
                           placeholder={t("fullNamePlaceholder")}
                           required
-                          value={applicationForm.fullName}
-                          onChange={(e) => setApplicationForm({ ...applicationForm, fullName: e.target.value })}
+                          value={applicationForm.name}
+                          onChange={(e) => setApplicationForm({ ...applicationForm, name: e.target.value })}
                         />
                       </div>
 
