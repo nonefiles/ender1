@@ -18,11 +18,11 @@ export default function ContactPage() {
     privacy: false
   })
 
-  const [isSubmitting, setIsSubmitting] = useState(false); // Yeni eklendi
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => { // async eklendi
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setIsSubmitting(true); // Yeni eklendi
+    setIsSubmitting(true);
 
     try {
       const response = await fetch('/api/send-email', {
@@ -30,12 +30,12 @@ export default function ContactPage() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ ...formData, type: 'contact' }), // type alanı eklendi
+        body: JSON.stringify({ ...formData, type: 'contact' }),
       });
 
       if (response.ok) {
-        alert(t("form.successAlert")); // Başarı mesajı
-        setFormData({ // Formu temizle
+        alert(t("form.successAlert"));
+        setFormData({
           name: "",
           email: "",
           phone: "",
@@ -44,13 +44,13 @@ export default function ContactPage() {
           privacy: false
         });
       } else {
-        alert(t("form.errorAlert")); // Hata mesajı
+        alert(t("form.errorAlert"));
       }
     } catch (error) {
       console.error("Form gönderme hatası:", error);
-      alert(t("form.errorAlert")); // Hata mesajı
+      alert(t("form.errorAlert"));
     } finally {
-      setIsSubmitting(false); // Yeni eklendi
+      setIsSubmitting(false);
     }
   }
 
@@ -81,30 +81,30 @@ export default function ContactPage() {
   const departments = [
     {
       id: 1,
-      name: t("departments.1.name"),
-      email: "embracethebarriers@gmail.com",
-      phone: "+905458149628",
-      responsible: t("departments.1.role"),
+      name: "Abdulsamet Kezer",
+      email: "abdulsametkezer4@gmail.com",
+      phone: "+905399525689",
+      responsible: "Kurucu & Dernek Başkanı",
       address: t("address"),
       icon: <Building2 className="h-6 w-6 text-blue-600" />,
     },
     {
       id: 2,
-      name: t("departments.2.name"),
-      email: "talhanurlan@gmail.com",
-      phone: "+905534860320",
-      responsible: t("departments.2.role"),
+      name: "Safa Okay",
+      email: "safaokay27@gmail.com",
+      phone: "+905458149628",
+      responsible: "Kurucu Ortak & Dernek Başkan Yardımcısı",
       address: t("address"),
-      icon: <Users className="h-6 w-6 text-green-600" />,
+      icon: <Globe className="h-6 w-6 text-purple-600" />,
     },
     {
       id: 3,
-      name: t("departments.3.name"),
-      email: "safaokay27@gmail.com",
-      phone: "+905458149628",
-      responsible: t("departments.3.role"),
+      name: "Mahmut Talha Nurlan",
+      email: "talhanurlan@gmail.com",
+      phone: "+905534860320",
+      responsible: "Kurucu Ortak & Proje Yürütücüsü",
       address: t("address"),
-      icon: <Globe className="h-6 w-6 text-purple-600" />,
+      icon: <Users className="h-6 w-6 text-green-600" />,
     },
   ]
 
@@ -377,7 +377,7 @@ export default function ContactPage() {
             {t("departmentsTitle")}
           </motion.h2>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {departments.map((dept, index) => (
               <motion.div
                 key={dept.id}
@@ -385,33 +385,33 @@ export default function ContactPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white p-8 rounded-xl shadow-md"
+                className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all"
               >
                 <div className="flex items-center mb-6">
-                  <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
                     {dept.icon}
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-black">{dept.name}</h3>
-                    <p className="text-gray-600 text-sm">{dept.responsible}</p>
+                    <h3 className="text-lg font-bold text-black">{dept.name}</h3>
+                    <p className="text-gray-600 text-xs font-medium">{dept.responsible}</p>
                   </div>
                 </div>
 
                 <div className="space-y-4">
                   <div className="flex items-center">
-                    <Mail className="h-5 w-5 text-blue-500 mr-2" />
-                    <a href={`mailto:${dept.email}`} className="text-gray-600 hover:text-blue-600">
+                    <Mail className="h-4 w-4 text-blue-500 mr-2 flex-shrink-0" />
+                    <a href={`mailto:${dept.email}`} className="text-gray-600 hover:text-blue-600 text-sm break-all">
                       {dept.email}
                     </a>
                   </div>
                   <div className="flex items-center">
-                    <Phone className="h-5 w-5 text-blue-500 mr-2" />
-                    <a href={`tel:${dept.phone}`} className="text-gray-600 hover:text-blue-600">
+                    <Phone className="h-4 w-4 text-blue-500 mr-2 flex-shrink-0" />
+                    <a href={`tel:${dept.phone}`} className="text-gray-600 hover:text-blue-600 text-sm">
                       {dept.phone}
                     </a>
                   </div>
                   <div className="flex items-start">
-                    <MapPin className="h-5 w-5 text-blue-500 mr-2 mt-0.5 flex-shrink-0" />
+                    <MapPin className="h-4 w-4 text-blue-500 mr-2 mt-0.5 flex-shrink-0" />
                     <span className="text-gray-600 text-sm">{dept.address}</span>
                   </div>
                 </div>
