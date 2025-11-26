@@ -1,0 +1,1181 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "corporate": "Kurumsal",
+    "about": "Hakkımızda",
+    "team": "Ekibimiz",
+    "eurodesk": "Eurodesk Temas Noktası",
+    "projects": "Projeler",
+    "applications": "Başvurular",
+    "contact": "İletişim",
+    "volunteer": "Gönüllü Ol",
+    "pif": "PIF",
+    "events": "Etkinlikler",
+    "news": "Haberler",
+    "blog": "Blog",
+    "search": "Ara...",
+    "searchShortcut": "Ara... (Ctrl+K)",
+    "language": "Dil",
+    "turkish": "Türkçe",
+    "english": "English"
+  },
+  "homepage": {
+    "hero": {
+      "prevSlide": "Önceki Slayt",
+      "nextSlide": "Sonraki Slayt",
+      "goToSlide": "{number}. slayta git",
+      "slide1": {
+        "title": "Engelleri Birlikte AŞIYORUZ",
+        "description": "Herkes için eşit ve erişilebilir bir dünya hayaliyle çalışıyoruz.",
+        "primaryCTA": "Projeleri Keşfet",
+        "secondaryCTA": "Bize Katıl"
+      },
+      "slide2": {
+        "title": "Erasmus+ Fırsatları",
+        "description": "Gençleri Avrupa ile buluşturuyor, kültürlerarası köprüler kuruyoruz.",
+        "primaryCTA": "Dahil Ol",
+        "secondaryCTA": "Daha Fazla Bilgi"
+      },
+      "slide3": {
+        "title": "Gönüllü Ol, Fark Yarat",
+        "description": "Projelerimizde yer alarak değişimin bir parçası olun.",
+        "primaryCTA": "İş Birliği Yapın",
+        "secondaryCTA": "Blogumuzu Oku"
+      },
+      "cta": "Bize Katıl",
+      "learnMore": "Daha Fazla Bilgi"
+    },
+    "projects": {
+      "title": "Projelerimiz",
+      "subtitle": "En son girişimlerimizi ve etkinliklerimizi keşfedin",
+      "seeDetails": "Detayları İncele",
+      "viewDetails": "Detayları Gör",
+      "status": {
+        "applications": "Başvurular Açık",
+        "approved": "Onaylandı",
+        "ongoing": "Devam Ediyor",
+        "completed": "Tamamlandı"
+      },
+      "featured": {
+        "1": {
+          "title": "Volunteering teams as a tool to support Inclusion eğitimi",
+          "description": "20-24 Ekim tarihleri arasında Çekya'nın Prag kentinde SALTO tarafından düzenlenen 'Volunteering teams as a tool to support Inclusion' eğitimine katılım sağlandı. Eğitim sürecinde gönüllülük takımlarının sosyal kapsayıcılığa katkısı, kapsayıcı yaklaşımların yaygınlaştırılması ve iyi uygulama örnekleri üzerine çalışmalar gerçekleştirildi."
+        },
+        "2": {
+          "title": "Çeşitlilik İçinde Birlik: Dezavantajlı Gruplar İçin Çok Kültürlü Duyarlılık ve Uyum",
+          "description": "Çeşitlilik İçinde Birlik: Dezavantajlı Gruplar İçin Çok Kültürlü Duyarlılık ve Uyum projesi, farklı kültürlerden gelen dezavantajlı gençlerin sosyal uyumunu desteklemek amacıyla tasarlanmıştır. Proje, kültürlerarası diyalog, sosyal içerme ve çeşitliliğe saygı konularında farkındalık yaratmayı hedeflemektedir."
+        },
+        "3": {
+          "title": "PSYCHOCAMP",
+          "description": "Erasmus+ KA210-YOU PSYCHOCAMP projesi, gençlerin psikolojik dayanıklılıklarını artırmayı ve ruh sağlığı konusunda farkındalık yaratmayı amaçlayan bir küçük ölçekli ortaklık projesidir. Proje kapsamında, gençlere yönelik psikolojik destek mekanizmaları, stres yönetimi, duygusal zeka ve öz-bakım konularında eğitimler ve atölye çalışmaları düzenlenecektir."
+        }
+      }
+    },
+    "volunteerCTA": {
+      "title": "Gönüllümüz Olun",
+      "description": "Projelerimizde yer alarak topluma katkı sağlamak ve kendinizi geliştirmek ister misiniz?",
+      "cta": "Başvuru Yap"
+    },
+    "blog": {
+      "title": "Blog",
+      "subtitle": "Deneyimler ve Hikayeler",
+      "readMore": "Devamını Oku",
+      "close": "Kapat",
+      "sampleContent": "Bu bir örnek içeriktir. Blog yazısının tam metni buraya gelecek..."
+    },
+    "news": {
+      "title": "Haberler & Duyurular",
+      "seeAll": "Tümünü Gör",
+      "eventsTitle": "Yaklaşan Etkinlikler",
+      "allEvents": "Tüm Etkinlikler",
+      "details": "Detaylar",
+      "readDetails": "Detayı Oku",
+      "categories": {
+        "news": "Haber",
+        "announcement": "Duyuru",
+        "event": "Etkinlik"
+      },
+      "items": {
+        "1": {
+          "title": "BRIDGE Projemiz Onaylandı! 🎉",
+          "excerpt": "2025 yılı 1. başvuru döneminde Gençlik Çalışanları Hareketliliği kapsamında yaptığımız proje başvurumuz kabul edildi!",
+          "date": "25 Kas 2025",
+          "category": "announcement"
+        },
+        "2": {
+          "title": "🚀 Ender Ekip Çağrısı! ✨",
+          "excerpt": "Yeni projelerimiz için çeşitli ekiplerimize katılacak yüksek motivasyonlu takım arkadaşları arıyoruz.",
+          "date": "20 Kas 2025",
+          "category": "news"
+        },
+        "3": {
+          "title": "🌍 İnönü Üniversitesi Topluluk Günleri",
+          "excerpt": "Malatya Eurodesk Temas Noktası olarak İnönü Üniversitesi Topluluk Günleri'nde yerimizi aldık!",
+          "date": "15 Eki 2025",
+          "category": "event"
+        },
+        "4": {
+          "title": "🎯 NEETGEP Projesi | Malatya Çalıştayı – Son Gün",
+          "excerpt": "NEET gençlerin yaşadığı zorlukları anlamak ve çözüm üretmek amacıyla yürüttüğümüz NEETGEP Projesi'nin çalıştayını tamamladık.",
+          "date": "10 Eki 2025",
+          "category": "news"
+        }
+      }
+    }
+  },
+  "about": {
+    "pageHeader": {
+      "title": "Hakkımızda",
+      "description": "Ender Derneği: Engelleri Aşan Gençlik"
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Misyonumuz, bireylerin topluma katılımını kısıtlayan fiziksel, sosyal, ekonomik veya kültürel engelleri aşmalarına destek olmaktır. Eşit fırsatları, sürekli öğrenmeyi ve toplumsal farkındalığı projelerimizle teşvik ediyoruz. Her bireyin ilgi alanı ve yetkinliği doğrultusunda gelişimini destekleyerek, herkesin adil ve kapsayıcı bir geleceğe anlamlı katkı sunabildiği bir toplum hedefliyoruz."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Engelleri AŞIN Derneği olarak, engel kavramını yalnızca fiziksel kısıtlılıklarla sınırlamıyor; dil yetersizliği, ekonomik zorluklar ve sosyal dışlanma gibi bireylerin potansiyellerini gerçekleştirmesini engelleyen her durumu bu kapsamda değerlendiriyoruz. Vizyonumuz, her bireyin —özellikle engelli bireylerin— toplumsal yaşama tam ve aktif biçimde katılabildiği kapsayıcı bir toplum oluşturmaktır. Gençleri kişisel ve profesyonel anlamda güçlendirirken gönüllülük, empati ve dayanışma değerlerini benimsemelerini hedefliyoruz."
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "subtitle": "Bizi biz yapan temel ilkelerimiz",
+      "solidarity": {
+        "title": "Dayanışma",
+        "description": "Birlikte daha güçlüyüz, birbirimize destek olarak büyüyoruz."
+      },
+      "inclusivity": {
+        "title": "Kapsayıcılık",
+        "description": "Her bireyin farklılıklarıyla kabul gördüğü bir ortam yaratıyoruz."
+      },
+      "transformation": {
+        "title": "Dönüşüm",
+        "description": "Toplumsal farkındalık yaratarak pozitif değişimi tetikliyoruz."
+      },
+      "innovation": {
+        "title": "Yenilikçilik",
+        "description": "Sorunlara yaratıcı ve sürdürülebilir çözümler üretiyoruz."
+      }
+    },
+    "timeline": {
+      "title": "Zaman Tüneli",
+      "subtitle": "Kuruluşumuzdan bugüne yolculuğumuz",
+      "items": {
+        "2022": {
+          "title": "Kuruluş",
+          "description": "Ender Derneği Malatya'da kuruldu ve ilk yerel faaliyetlerine başladı."
+        },
+        "2023": {
+          "title": "İlk Projeler",
+          "description": "Yerel çapta engelli bireylere yönelik sosyal uyum projeleri hayata geçirildi."
+        },
+        "2024_1": {
+          "title": "Uluslararası Açılım",
+          "description": "İlk Erasmus+ gençlik değişimi projesi kabul edildi ve uygulandı."
+        },
+        "2024_2": {
+          "title": "Eurodesk Üyeliği",
+          "description": "Derneğimiz resmi Eurodesk Temas Noktası olarak akredite edildi."
+        },
+        "2025": {
+          "title": "Büyüme Hedefleri",
+          "description": "Daha fazla gence ulaşmak için yeni stratejik ortaklıklar ve projeler geliştiriliyor."
+        }
+      }
+    },
+    "stats": {
+      "title": "Rakamlarla Biz",
+      "years": "Yıllık Tecrübe",
+      "team": "Gönüllü Üye",
+      "projects": "Tamamlanan Proje",
+      "accreditations": "Akreditasyon"
+    },
+    "team": {
+      "title": "Yönetim Ekibimiz",
+      "subtitle": "Derneğimize yön veren liderlerimiz",
+      "contact": "İletişime Geç",
+      "members": {
+        "abdulsamet": {
+          "name": "Abdulsamet Kezer",
+          "role": "Kurucu & Dernek Başkanı",
+          "description": "Engelliler için Beden Eğitimi mezunu, vizyoner lider."
+        },
+        "safa": {
+          "name": "Safa Okay",
+          "role": "Kurucu Ortak & Dernek Başkan Yardımcısı",
+          "description": "Eurodesk temas noktası sorumlusu ve stratejist."
+        },
+        "talha": {
+          "name": "Mahmut Talha Nurlan",
+          "role": "Kurucu Ortak & Proje Yürütücüsü",
+          "description": "Teknik altyapı ve proje yönetim süreçleri lideri."
+        }
+      }
+    },
+    "cta": {
+      "title": "Bizimle İletişime Geçin",
+      "description": "Projelerimiz hakkında daha fazla bilgi almak veya işbirliği yapmak için bize ulaşın.",
+      "joinProjects": "Projeleri İncele",
+      "contact": "İletişim",
+      "contactInfo": {
+        "email": "E-posta",
+        "phone": "Telefon",
+        "address": "Adres",
+        "addressText": "Niyazi Mısri Mah. Niyazi Sok. 67/4, Arzum İş Merkezi, 4 Nolu Ofis"
+      }
+    }
+  },
+  "contact": {
+    "pageTitle": "İletişim",
+    "pageSubtitle": "Sizi dinlemek ve engelleri birlikte aşmak için buradayız.",
+    "address": "Niyazi Mısri Mah. Niyazi Sok. 67/4, Arzum İş Merkezi, 4 Nolu Ofis",
+    "addressTitle": "Adres",
+    "city": "Malatya",
+    "phoneTitle": "Telefon",
+    "emailTitle": "E-posta",
+    "web": "Web Sitesi",
+    "workingHoursTitle": "Çalışma Saatleri",
+    "weekdays": "Hafta içi",
+    "saturday": "Cumartesi",
+    "sunday": "Pazar",
+    "closed": "Kapalı",
+    "achievementsTitle": "Başarılarımız",
+    "departmentsTitle": "Birimlerimiz",
+    "departments": {
+      "1": {
+        "name": "Genel Yönetim",
+        "role": "Dernek Başkanı"
+      },
+      "2": {
+        "name": "Proje Koordinasyon",
+        "role": "Proje Müdürü"
+      },
+      "3": {
+        "name": "Halkla İlişkiler",
+        "role": "Medya Sorumlusu"
+      }
+    },
+    "form": {
+      "title": "Bize Mesaj Gönderin",
+      "name": "Ad Soyad",
+      "namePlaceholder": "Adınızı giriniz",
+      "email": "E-posta Adresi",
+      "emailPlaceholder": "ornek@email.com",
+      "phone": "Telefon Numarası",
+      "phonePlaceholder": "+90 555 555 55 55",
+      "subject": "Konu",
+      "subjectPlaceholder": "Mesajınız ne hakkında?",
+      "message": "Mesajınız",
+      "messagePlaceholder": "Mesajınızı buraya yazın...",
+      "privacy": "Gizlilik politikasını okudum ve kabul ediyorum.",
+      "submit": "Mesaj Gönder",
+      "alert": "Mesajınız başarıyla gönderildi!"
+    },
+    "achievements": {
+      "1": {
+        "title": "Erişilebilirlik Ödülü",
+        "desc": "Şehir entegrasyonu projelerimizle kazanılan ödül."
+      },
+      "2": {
+        "title": "50+ Proje",
+        "desc": "Başarıyla tamamlanan sosyal sorumluluk projeleri."
+      },
+      "3": {
+        "title": "1000+ Üye",
+        "desc": "Gönüllülerimizle birlikte büyüyen ailemiz."
+      }
+    },
+    "faqTitle": "Sıkça Sorulan Sorular",
+    "faq": {
+      "1": {
+        "q": "Nasıl üye olabilirim?",
+        "a": "Web sitemizdeki üyelik formunu doldurarak veya ofisimizi ziyaret ederek üye olabilirsiniz."
+      },
+      "2": {
+        "q": "Nasıl bağış yapabilirim?",
+        "a": "Bağış sayfamızdaki banka hesap numaralarımızdan bize destek olabilirsiniz."
+      },
+      "3": {
+        "q": "Merkeziniz nerede?",
+        "a": "Dernek merkezimiz Malatya şehir merkezindedir."
+      },
+      "4": {
+        "q": "Gönüllü olabilir miyim?",
+        "a": "Evet, ekibimize katılmak isteyen gönüllülere kapımız her zaman açık."
+      },
+      "5": {
+        "q": "Yurtdışı projeleriniz var mı?",
+        "a": "Evet, Avrupa Birliği fonları ile ortak projeler yürütmekteyiz."
+      }
+    }
+  },
+  "aboutPage": {
+    "title": "Hakkımızda",
+    "subtitle": "Ender Derneği: Engelleri Aşan Gençlik",
+    "storyTitle": "Hikayemiz",
+    "story": "2022 yılında kurulan Ender Derneği...",
+    "missionTitle": "Misyonumuz",
+    "mission": "Misyonumuz, bireylerin topluma katılımını kısıtlayan fiziksel, sosyal, ekonomik veya kültürel engelleri aşmalarına destek olmaktır. Eşit fırsatları, sürekli öğrenmeyi ve toplumsal farkındalığı projelerimizle teşvik ediyoruz. Her bireyin ilgi alanı ve yetkinliği doğrultusunda gelişimini destekleyerek, herkesin adil ve kapsayıcı bir geleceğe anlamlı katkı sunabildiği bir toplum hedefliyoruz.",
+    "visionTitle": "Vizyonumuz",
+    "vision": "Engelleri AŞIN Derneği olarak, engel kavramını yalnızca fiziksel kısıtlılıklarla sınırlamıyor; dil yetersizliği, ekonomik zorluklar ve sosyal dışlanma gibi bireylerin potansiyellerini gerçekleştirmesini engelleyen her durumu bu kapsamda değerlendiriyoruz. Vizyonumuz, her bireyin —özellikle engelli bireylerin— toplumsal yaşama tam ve aktif biçimde katılabildiği kapsayıcı bir toplum oluşturmaktır. Gençleri kişisel ve profesyonel anlamda güçlendirirken gönüllülük, empati ve dayanışma değerlerini benimsemelerini hedefliyoruz.",
+    "stats": {
+      "members": "Üye",
+      "projects": "Proje",
+      "volunteers": "Gönüllü",
+      "countries": "Ülke"
+    }
+  },
+  "projectsPage": {
+    "title": "Projelerimiz",
+    "description": "Erasmus+ ve yerel projelerimizle topluma değer katıyoruz.",
+    "categories": {
+      "all": "Tümü",
+      "ongoing": "Devam Eden",
+      "completed": "Tamamlanan"
+    },
+    "status": {
+      "ongoing": "Devam Ediyor",
+      "completed": "Tamamlandı"
+    },
+    "viewDetails": "Detayları Gör",
+    "items": {
+      "1": {
+        "title": "Doğada Engel Yok",
+        "desc": "Özel gereksinimli bireyler için doğa kampı ve outdoor aktiviteleri içeren kapsayıcı projemiz.",
+        "category": "completed"
+      },
+      "2": {
+        "title": "Kültürlerin Dansı",
+        "desc": "Farklı ülkelerden gençlerin bir araya gelerek kendi kültürlerini dans ve müzikle tanıttığı gençlik değişimi.",
+        "category": "completed"
+      },
+      "3": {
+        "title": "KÖPRÜ",
+        "desc": "Gençlik çalışanlarının engelli bireylerle çalışma konusundaki yetkinliklerini artırmayı hedefleyen projemiz.",
+        "category": "ongoing"
+      },
+      "4": {
+        "title": "Dijital Gelecek",
+        "desc": "Gençlerin dijital okuryazarlık becerilerini geliştirmek için düzenlenen eğitim kursu.",
+        "category": "ongoing"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projelerimiz",
+    "subtitle": "En son çalışmalarımızı keşfedin",
+    "viewDetails": "Detayları Gör",
+    "applyNow": "Başvur",
+    "closeDetails": "Kapat",
+    "categories": {
+      "all": "Tümü",
+      "youthWorkersMobility": "Gençlik Çalışanları Hareketliliği",
+      "youthExchange": "Gençlik Değişimi",
+      "europeanSolidarityCorps": "Avrupa Dayanışma Programı",
+      "socialInclusion": "Sosyal İçerme",
+      "youthWorkshop": "Gençlik Çalıştayı",
+      "trainingCourse": "Erasmus+ Eğitim Kursu",
+      "internationalInitiative": "Uluslararası Girişim",
+      "youthProject": "Erasmus+ Gençlik Projesi",
+      "discoverEU": "DiscoverEU"
+    },
+    "status": {
+      "completed": "Tamamlandı",
+      "ongoing": "Devam Ediyor",
+      "applications": "Başvurular Açık",
+      "approved": "Onaylandı"
+    },
+    "labels": {
+      "location": "Konum",
+      "beneficiaries": "Yararlanıcılar",
+      "date": "Tarih",
+      "progress": "İlerleme",
+      "partners": "Ortaklar",
+      "participants": "Katılımcılar",
+      "applicationCount": "Başvuru Sayısı",
+      "tags": "Etiketler",
+      "projectDetails": "Proje Detayları",
+      "progressStatus": "İlerleme Durumu"
+    },
+    "items": {
+      "1": {
+        "name": "Volunteering teams as a tool to support Inclusion training / European Shapers Alliance for Tomorrow",
+        "description": "Aktif vatandaşlık, liderlik ve Avrupa değerleri üzerine farkındalık oluşturan dolu dolu bir hafta tamamlandı! Türkiye Ulusal Ajansı tarafından fonlanan ve Erasmus+ programı kapsamında gerçekleştirilen bu proje, kültürlerarası diyaloğu ve ortak gelecek vizyonunu güçlendirmek için farklı Avrupa ülkelerinden gençleri bir araya getirmeyi amaçladı.",
+        "details": "Sözleşme No: 2024-1-TR01-KA151-YOU-000224504",
+        "location": "Malaga İspanya",
+        "beneficiaries": "Gençlik",
+        "status": "Active",
+        "tags": "Eğitim, Gönüllülük"
+      },
+      "2": {
+        "name": "NEET'ler İçin Geleceğe Köprü Projesi: İstanbul Çalıştayı",
+        "description": "18-30 yaş arası NEET (eğitimde, istihdamda veya eğitimde olmayan) gençlere özel olarak düzenlenen 'Geleceğe Köprü' Projesi'nin ikinci çalıştayı İstanbul'da gerçekleşiyor! Karşılanan Giderler: Konaklama, Yeme - İçme, Seyahat Giderleri. Kendini geliştirmek isteyen tüm gençleri bu özel programa bekliyoruz!",
+        "details": "Başvuru Formu: https://forms.gle/LwYFejzGr3ychKGL8, Son Başvuru: 15 Kasım 2025",
+        "location": "İstanbul",
+        "beneficiaries": "NEET Gençliği",
+        "status": "Applications Open",
+        "tags": "Eğitim, İstihdam"
+      },
+      "3": {
+        "name": "Puppet Theater in Educational Work with Youth and Children",
+        "description": "Yaratıcı drama ve sanat temelli öğrenme yoluyla çocukların ve gençlerin duygusal, sosyal ve bilişsel gelişimlerini desteklemeyi amaçlayan Erasmus+ eğitim kursu. Proje Amacı: Kukla tiyatrosunu yaratıcı ve eğitici bir yöntem olarak tanıtmak.",
+        "details": "Hedef Kitle: Çocuklar ve gençlerle çalışan gençlik çalışanları, eğitmenler, öğretmenler veya gönüllüler.",
+        "location": "Poznan Polonya",
+        "beneficiaries": "Çocuklar ve Gençler",
+        "status": "Active",
+        "tags": "Yaratıcı Drama, Sanat, Eğitim"
+      },
+      "4": {
+        "name": "Çeşitlilik İçinde Birlik: Dezavantajlı Gruplar İçin Çok Kültürlü Duyarlılık ve Uyum",
+        "description": "Gençler arasında toplumsal farkındalığı, empatiyi ve sorumluluk bilincini güçlendirmeyi hedefleyen uluslararası bir girişimdir. Katılımcı gençler, nefret söylemi ve önyargılara karşı çözüm önerileri geliştirecek.",
+        "details": "Ortaklar: Ürdün, Bulgaristan, Türkiye, Romanya, Belçika. Katılımcı Sayısı: Toplam: 25 genç (13 erkek, 12 kadın). Başvuru: 124.",
+        "location": "Arapgir, Malatya",
+        "beneficiaries": "Dezavantajlı Gençler",
+        "status": "Active",
+        "tags": "Toplumsal Farkındalık, Empati, Çok Kültürlü Duyarlılık"
+      },
+      "5": {
+        "name": "PSYCHOCAMP (Psiko-Sosyal İhtiyaçlı Bireyler İçin Kapsayıcı, Onarıcı, Koruyucu Aile Motivasyon Programı)",
+        "description": "Engelleri Aşan Derneği koordinatörlüğünde, İspanya, Polonya ve Türkiye ortaklığında yürütülen bir Erasmus+ Gençlik Projesidir. Amaç: Psiko-sosyal ihtiyaçlı bireylerin bakımını üstlenen kişiler için destekleyici yaklaşımları güçlendirmek.",
+        "details": "Proje No: 2024-3-TR01-KA210-YOU-000285989. Ortaklar: İspanya, Polonya, Türkiye. Katılımcı Sayısı: Toplam: 20 genç.",
+        "location": "Cambados, İspanya; Malatya, Türkiye",
+        "beneficiaries": "Psiko-Sosyal İhtiyaçlı Bireylerin Bakımverenleri",
+        "status": "Active",
+        "tags": "Psiko-Sosyal Destek, Aile Motivasyon Programı"
+      },
+      "6": {
+        "name": "DiscoverEU: Sınırları Kaldıran Gençler",
+        "description": "Görme Engelliler, Depremzedeler, İşitme Engelliler ve karma engel grupları için rotalar. Rota 1: 16/09/2024 – 26/09/2024 (Kuzey Makedonya, Sırbistan, Türkiye). Rota 2: 10/07/2025 – 20/07/2025 (İspanya, Portekiz).",
+        "details": "Rotalar ve Katılımcı Sayıları dosyada mevcuttur.",
+        "location": "Avrupa Geneli",
+        "beneficiaries": "Engelli Gençler",
+        "status": "Active",
+        "tags": "Seyahat, Sosyal İçerme"
+      },
+      "7": {
+        "name": "BRIDGE: Building Resources for Inclusive Development, Guidance and Engagement for Disabled People",
+        "description": "2025 yılı 1. başvuru döneminde Gençlik Çalışanları Hareketliliği kapsamında başvurulan projedir.",
+        "details": "Proje No: 2025-1-TR01-KA153-YOU-000298857. Durum: Onaylandı!",
+        "location": "Belirtilmemiş",
+        "beneficiaries": "Engelli Bireyler",
+        "status": "Approved",
+        "tags": "Kapasite Geliştirme, Sosyal İçerme"
+      }
+    }
+  },
+  "applications": {
+    "pageTitle": "Başvurular",
+    "pageSubtitle": "Programlarımıza başvurun",
+    "pageDescription": "Projeler, eğitimler ve gönüllülük fırsatları için açık çağrılarımızı keşfedin.",
+    "ongoingApplications": "Devam Eden Başvurular",
+    "completedApplications": "Tamamlanan Başvurular",
+    "eurodeskContactPoint": "Eurodesk Temas Noktası",
+    "qualityLabel": "Kalite Etiketi",
+    "activeProjects": "Aktif Projeler",
+    "ourMission": "Misyonumuz:",
+    "mission": "Engelleri birlikte aşmak.",
+    "statuses": {
+      "ongoing": "Devam ediyor",
+      "underReview": "Değerlendirmede",
+      "approved": "Onaylandı",
+      "rejected": "Reddedildi",
+      "completed": "Tamamlandı"
+    },
+    "categories": {
+      "disabilityRights": "Engelli Hakları",
+      "internationalProjects": "Uluslararası Projeler",
+      "psychology": "Psikoloji",
+      "sportsRehabilitation": "Spor ve Rehabilitasyon",
+      "languageEducation": "Dil Eğitimi",
+      "cultureArts": "Kültür-Sanat"
+    },
+    "items": {
+      "ongoing": {
+        "1": {
+          "id": 1,
+          "title": "NEET'ler İçin Geleceğe Köprü Projesi: İstanbul Çalıştayı",
+          "description": "18-30 yaş arası NEET (eğitimde, istihdamda veya eğitimde olmayan) gençlere özel olarak düzenlenen 'Geleceğe Köprü' Projesi'nin ikinci çalıştayı İstanbul'da gerçekleşiyor!",
+          "category": "internationalProjects",
+          "applicationDeadline": "15 Kasım 2025",
+          "startDate": "25 Kasım 2025",
+          "location": "İstanbul",
+          "maxParticipants": null,
+          "currentApplications": 0,
+          "status": "ongoing",
+          "requirements": [
+            "18-30 yaş arası olmak",
+            "NEET statüsünde olmak (eğitimde, istihdamda veya eğitimde olmayan)"
+          ],
+          "benefits": [
+            "Konaklama",
+            "Yeme - İçme",
+            "Seyahat Giderleri",
+            "Yeni beceriler kazanma",
+            "Kişisel gelişim fırsatı"
+          ],
+          "details": {
+            "dates": "25 – 28 Kasım 2025",
+            "coverage": "Konaklama, Yeme - İçme, Seyahat Giderleri",
+            "target": "Geleceğine yön vermek, yeni beceriler kazanmak ve kendini geliştirmek isteyen tüm gençler",
+            "applicationForm": "https://forms.gle/LwYFejzGr3ychKGL8",
+            "note": "Başvurusu onaylanan katılımcılara e-posta yoluyla bilgilendirme yapılacaktır."
+          },
+          "contactPerson": {
+            "name": "ENDER",
+            "email": "embracethebarriers@gmail.com",
+            "phone": "+905458149628"
+          }
+        }
+      },
+      "completed": {
+        "101": {
+          "id": 101,
+          "title": "PSYCHOCAMP – Inclusive Restorative Protective Family Motivation Program",
+          "description": "Engelli bireylerin aileleri ve bakıcılarına yönelik kapsayıcı, onarıcı, koruyucu psikososyal destek programı. Her iki hareketliliğe (İspanya ve Türkiye) katılım zorunlu.",
+          "category": "psychology",
+          "applicationDeadline": "25 Ağustos 2025",
+          "completionDate": "25 Ağustos 2025",
+          "location": "1. Cambados, İspanya (2-8 Kasım 2025) / 2. Malatya, Türkiye (1-7 Şubat 2026)",
+          "maxParticipants": 5,
+          "totalApplications": 5,
+          "acceptedApplications": 5,
+          "status": "completed",
+          "details": {
+            "mobilities": [
+              "1. Hareketlilik: Cambados, İspanya – 2–8 Kasım 2025",
+              "2. Hareketlilik: Malatya, Türkiye – 1–7 Şubat 2026"
+            ],
+            "participants": "5 katılımcı seçildi (her iki hareketliliğe katılım zorunludur)",
+            "coverage": "Seyahat & konaklama Erasmus+ kapsamında karşılanır",
+            "about": "Engelli bireylerin aileleri ve bakıcılarına yönelik kapsayıcı, onarıcı, koruyucu bir psikososyal destek programı",
+            "eligibility": [
+              "18–30 yaş genç profesyoneller (psikoloji, sosyal hizmet, özel eğitim vb.)",
+              "Engelli bireylerin bakımını üstlenen aile üyeleri"
+            ],
+            "priority": [
+              "Bordo pasaportlular",
+              "Dezavantajlı bireyler",
+              "İlgili alanlarda deneyimi/güçlü ilgisi olanlar"
+            ]
+          },
+          "contactPerson": {
+            "name": "ENDER",
+            "email": "embracethebarriers@gmail.com",
+            "phone": "+905458149628"
+          }
+        },
+        "102": {
+          "id": 102,
+          "title": "İngilizce Konuşma Kulübü Koordinatörü",
+          "description": "İngilizce pratiği yapmak isteyen gençlere destek olmak için İngilizce Konuşma Kulübü koordinatörü seçimi tamamlandı.",
+          "category": "languageEducation",
+          "applicationDeadline": "Tamamlandı",
+          "completionDate": "Tamamlandı",
+          "location": "Online / Malatya",
+          "maxParticipants": null,
+          "totalApplications": null,
+          "acceptedApplications": null,
+          "status": "completed",
+          "details": {
+            "about": "İngilizce pratiği yapmak isteyen gençlere destek olmak",
+            "role": "İngilizce Konuşma Kulübümüzde koordinatör olarak yer almak",
+            "expectations": [
+              "Her hafta müsait olduğunuzda kulübe katılım sağlamak",
+              "Kolaylaştırıcı olduğunuz haftalarda konu ve sorular hazırlamak",
+              "Grup iletişimini kolaylaştırmak ve teşvik etmek"
+            ],
+            "note": "Seçilmeniz halinde sizinle iletişime geçeceğiz."
+          },
+          "contactPerson": {
+            "name": "ENDER",
+            "email": "embracethebarriers@gmail.com",
+            "phone": "+905458149628"
+          }
+        },
+        "103": {
+          "id": 103,
+          "title": "Puppet Theater in Educational Work with Youth and Children",
+          "description": "Çocuklar ve gençlerle çalışan gençlik çalışanları, eğitmenler, öğretmenler veya gönüllüler için kukla tiyatrosunu bir eğitim yöntemi olarak tanıtan Erasmus+ eğitim kursu.",
+          "category": "cultureArts",
+          "applicationDeadline": "7 Eylül 2025",
+          "completionDate": "7 Eylül 2025",
+          "location": "Czerlejno, Polonya (22-30 Ekim 2025)",
+          "maxParticipants": 2,
+          "totalApplications": 2,
+          "acceptedApplications": 2,
+          "status": "completed",
+          "details": {
+            "dates": "22–30 Ekim 2025",
+            "location": "Czerlejno, Polonya",
+            "target": "Çocuklar ve gençlerle çalışan gençlik çalışanları, eğitmenler, öğretmenler veya gönüllüler için kukla tiyatrosunu bir eğitim yöntemi olarak tanıtmayı amaçlayan Erasmus+ eğitim kursu",
+            "participants": "Türkiye'den 1 kadın ve 1 erkek katılımcı seçildi",
+            "activities": "Katılımcılar kukla tasarlayacak, eğitim etkinlikleri geliştirecek ve pedagojik yöntemler üzerine çalışacaktır",
+            "coverage": "Seyahat masrafları 395 €'ya kadar, konaklama ve yemekler tamamen karşılanmaktadır",
+            "requirements": [
+              "18–30 yaş aralığında",
+              "İngilizce bilen",
+              "Gönüllülük/yaratıcı drama/çocuk gelişimi/sanat temelli eğitim alanında deneyimli"
+            ]
+          },
+          "contactPerson": {
+            "name": "ENDER",
+            "email": "embracethebarriers@gmail.com",
+            "phone": "+905458149628"
+          }
+        }
+      }
+    },
+    "applicationDeadline": "Son Başvuru",
+    "applications": "Başvuru",
+    "people": "Kişi",
+    "accepted": "Kabul Edilen",
+    "completion": "Tamamlanma Tarihi",
+    "requirements": "Gereksinimler",
+    "moreRequirements": "+{count} gereksinim daha",
+    "viewDetails": "Detayları Gör",
+    "details": "Detaylar",
+    "start": "Başlangıç",
+    "quota": "Kontenjan",
+    "benefits": "İmkanlar",
+    "contact": "İletişim Kişisi",
+    "apply": "Başvur",
+    "applicationFormDescription": "Başvurmak için lütfen aşağıdaki formu doldurun.",
+    "applicationReceived": "Başvurunuz Alındı",
+    "applicationSuccess": "{title} için başvurunuz başarıyla alınmıştır.",
+    "fullName": "Ad Soyad",
+    "fullNamePlaceholder": "Adınızı ve soyadınızı giriniz",
+    "email": "E-posta",
+    "emailPlaceholder": "E-posta adresinizi giriniz",
+    "phone": "Telefon",
+    "phonePlaceholder": "Telefon numaranızı giriniz",
+    "experience": "Deneyim",
+    "experiencePlaceholder": "İlgili deneyiminizden kısaca bahsedin",
+    "motivation": "Motivasyon",
+    "motivationPlaceholder": "Bu projeye neden katılmak istiyorsunuz?",
+    "cancel": "İptal",
+    "submitApplication": "Başvuruyu Gönder",
+    "totalApplications": "Toplam Başvuru",
+    "acceptedApplications": "Kabul Edilen Başvurular",
+    "targetParticipants": "Hedef Katılımcı",
+    "completedPrograms": "Tamamlanan Programlar",
+    "activeApplications": "Aktif Başvurular",
+    "contactUs": "Bize Ulaşın",
+    "contactDescription": "Başvuru süreciyle ilgili sorularınız varsa bizimle iletişime geçmekten çekinmeyin."
+  },
+  "blog": {
+    "pageTitle": "Blog",
+    "pageDescription": "Deneyimler, ipuçları ve ilham verici hikayeler",
+    "backButton": "Geri Dön",
+    "readMore": "Devamını Oku",
+    "close": "Kapat",
+    "like": "Beğen",
+    "share": "Paylaş:",
+    "readTime": "dk okuma",
+    "noPosts": "Bu kategoride yazı bulunamadı.",
+    "tryOtherCategories": "Lütfen diğer kategorileri deneyin.",
+    "categories": {
+      "all": "Tümü",
+      "experience": "Deneyimler",
+      "tips": "İpuçları",
+      "culture": "Kültür",
+      "lifestyle": "Yaşam Tarzı"
+    },
+    "categoryLabels": {
+      "experience": "Deneyim",
+      "tips": "İpucu",
+      "culture": "Kültür",
+      "lifestyle": "Yaşam Tarzı"
+    },
+    "posts": {
+      "1": {
+        "title": "Aile İçi Şiddet Nedir?",
+        "excerpt": "Ailenin mevcut ya da eski üyeleri veya birlikte yaşayan bireyler arasında meydana gelen fiziksel, cinsel, psikolojik ve ekonomik şiddet eylemleri.",
+        "content": "AİLE İÇİ ŞİDDET NEDİR?\nAilenin mevcut ya da eski üyeleri veya birlikte yaşayan bireyler arasında meydana gelen fiziksel, cinsel, psikolojik, ekonomik şiddet eylemleridir.\n\nŞİDDET TÜRLERİ:\nFiziksel Şiddet: Maruz kalan kişide acı veya yaralanmaya yol açan kasıtlı eylemlerdir.\nCinsel Şiddet: Kişiyi rızası dışında herhangi bir cinsel eyleme zorlama durumu.\nPsikolojik Şiddet: Kişinin psikolojik bütünlüğünü zorlamaya veya tehditlerle bozmaya yönelik kasıtlı girişimlerdir.\nEkonomik Şiddet: Kişinin para gibi ekonomik kaynakları kazanmasını veya kullanmasını engellemek.\n\nUNUTMA:\nTehdit etmek, beslenme, uyku gibi temel ihtiyaçlardan mahrum bırakmak, çocukları evlendirmek, kürtaja zorlamak, zorunlu bekaret kontrolü yaptırmak, aşağılamak, alay etmek, kişinin giyimine, davranışlarına, başkalarıyla olan iletişimine karışmak, kişiye hesap sormak, manipüle etmek de bir şiddettir.\n\n“DUR” DİYEMİYORSUN ÇÜNKÜ...\nDaha fazla şiddet görmekten korkmak, yardım kaynakları hakkında bilgi yetersizliğinin olması, çaresiz hissetmek, şiddet gösteren kişiye karşı olan ekonomik ya da duygusal bağlılık, aileyi bir arada tutma gereksinimi duymak, özgüven eksikliğinin olması, toplumdan çekinmek gibi düşüncelere sahip olabilirsin.\n\nNERELERE BAŞVURABİLİRSİNİZ?\nŞiddete tanık olduğunda kimliksiz bir şekilde ihbar edebilirsin:\n- Polis ve jandarma\n- Alo 183\n- 112 ACİL\n- Aile ve Sosyal Hizmetler İl Müdürlüğü\n- ŞÖNİM (Şiddet Önleme ve İzleme Merkezi)\n- Baro\n- Kadın Sivil Toplum Kuruluşları",
+        "author": "Ender Psikoloji"
+      },
+      "2": {
+        "title": "Masal Terapisi",
+        "excerpt": "Masal terapi, kişinin iç dünyasına, düşüncelerine ve duygularına masallar aracılığıyla ulaşmayı hedefleyen bir terapi biçimidir.",
+        "content": "MASAL TERAPİ\nMasal terapi, kişinin iç dünyasına, düşüncelerine ve duygularına masallar aracılığıyla ulaşmayı hedefleyen bir terapi biçimidir. Bir çeşit sanatla terapi olan masal terapi, kişinin masallardaki karakterlerle özdeşleşmesi ve kendi hayat hikayesine yeni bakış açıları kazandırması üzerine çalışır.\n\nMasal terapisi, özellikle çocuklarla çalışan psikologlar ve danışmanlar tarafından sıkça kullanılır. Ancak bu terapi biçimi, yetişkinlerin de yaşam hikayelerini, deneyimlerini ve sorunlarını anlamalarına yardımcı olabilir. Masal terapisi, kişinin kendini ve yaşadığı olayları daha iyi anlamasına, duygusal zorlukları çözmesine ve kişisel gelişimine katkıda bulunabilir.\n\nMasal terapi, insanların hayat hikayelerine, sorunlarına ve deneyimlerine yeni bir bakış açısı kazandıran bir yolculuktur. Bu yolculukta, masalların büyülü dünyasına adım atarız ve kahramanlarla birlikte maceralara atılırız. Masalların dünyasında, kendi hikayemizi yeniden yazma ve anlamlandırma şansı buluruz.\n\nMasal terapisi, yaratıcı ve eğlenceli bir terapi biçimidir. Masalların renkli ve canlı dünyasında, kendi hikayemizi yeniden keşfedebilir ve yeni bir anlam kazandırabiliriz. Masal terapisi, hayatın zorluklarına karşı direnç geliştirmemize, duygusal sağlığımızı korumamıza ve kişisel gelişimimize katkıda bulunabilir.\n\nMasal terapisi, aynı zamanda bir iç gözlem ve kendini keşfetme sürecidir. Masal karakterlerinin yaşadıkları olaylar ve çözdükleri problemler üzerinden kişi, kendi yaşamındaki zorlukları ve çözüm yollarını daha net görme fırsatı bulur. Kendi hikayesini, masalların simgesel diliyle ifade etme ve anlamlandırma imkanı bulan kişi, yaşamındaki karmaşık durumları ve duygusal çatışmaları daha iyi yönetebilir hale gelir.\n\nMasal terapisi, aynı zamanda yaratıcılığı ve hayal gücünü teşvik eder. Masalların renkli dünyası, kişinin kendi hikayesini yeni ve farklı bir perspektiften görmesine yardımcı olur. Bu süreçte, kişi, kendi hayatındaki karakterler, olaylar ve çatışmaları masalların evreninde yeniden oluşturur ve bu sayede duygusal çözümlemeler yapma fırsatı bulur.\n\nTerapi sürecinde kullanılan masallar, kişinin yaşam deneyimlerine, duygusal durumuna ve ihtiyaçlarına göre seçilebilir. Her masal, farklı bir yaşam dersi, çözüm yolu veya bakış açısı sunabilir. Bu nedenle, masal terapisi, kişiye özgü ve esnek bir terapi biçimidir.\n\nSonuç olarak, masal terapisi, kişinin duygusal dünyasını anlamlandırma, kendini ifade etme ve kişisel gelişim sürecini destekleme konusunda etkili bir yol sunar. Bibliyoterapi ve sinematerapi gibi diğer sanatla terapi biçimleriyle birlikte, masal terapisi de bireysel ve grup terapilerinde etkili bir araç olarak kullanılabilir.",
+        "author": "Elif Nur Usta"
+      }
+    }
+  },
+  "news": {
+    "pageTitle": "Haberler & Duyurular",
+    "pageDescription": "En son gelişmelerden ve duyurulardan haberdar olun. Derneğimizin faaliyetleri hakkında güncel bilgiler edinin.",
+    "readMore": "Devamını Oku",
+    "close": "Kapat",
+    "categories": {
+      "all": "Tümü",
+      "News": "Haber",
+      "Announcement": "Duyuru",
+      "Event": "Etkinlik"
+    },
+    "items": {
+      "1": {
+        "title": "BRIDGE Projemiz Onaylandı! 🎉",
+        "excerpt": "2025 yılı 1. başvuru döneminde Gençlik Çalışanları Hareketliliği kapsamında yaptığımız proje başvurumuz kabul edildi!",
+        "content": "2025-1-TR01-KA153-YOU-000298857 referans numaralı 'BRIDGE: Building Resources for Inclusive Development, Guidance and Engagement for Disabled People' projemiz kabul edilmiştir!"
+      },
+      "2": {
+        "title": "🚀 Ender Ekip Çağrısı! ✨",
+        "excerpt": "Yeni projelerimiz için çeşitli ekiplerimize katılacak yüksek motivasyonlu takım arkadaşları arıyoruz.",
+        "content": "Merhaba! Yeni projelerimiz için çeşitli ekiplerimize katılacak yüksek motivasyonlu takım arkadaşları arıyoruz. Bu heyecan verici sürecin bir parçası olmak ister misin?"
+      },
+      "3": {
+        "title": "🌍 İnönü Üniversitesi Topluluk Günleri",
+        "excerpt": "Malatya Eurodesk Temas Noktası olarak İnönü Üniversitesi Topluluk Günleri'nde yerimizi aldık!",
+        "content": "Malatya Eurodesk Temas Noktası olarak İnönü Üniversitesi Topluluk Günleri'nde yerimizi aldık! Gençlerle Avrupa fırsatları üzerine keyifli sohbetler gerçekleştirdik."
+      },
+      "4": {
+        "title": "🎯 NEETGEP Projesi | Malatya Çalıştayı – Son Gün",
+        "excerpt": "NEET gençlerin yaşadığı zorlukları anlamak ve çözüm üretmek amacıyla yürüttüğümüz NEETGEP Projesi'nin çalıştayını tamamladık.",
+        "content": "NEETGEP Projesi'nin Malatya çalıştayının son gününü tamamladık. Sabah oturumlarında gençlerle birlikte çözüm önerileri hazırladık."
+      }
+    }
+  },
+  "volunteer": {
+    "title": "Gönüllü Ol",
+    "description": "Topluma katkıda bulunmak için gönüllü olun, fark yaratın!",
+    "successTitle": "Başvurunuz Alındı!",
+    "successMessage": "Gönüllülük başvurunuz için teşekkür ederiz. En kısa sürede sizinle iletişime geçeceğiz.",
+    "newApplication": "Yeni Başvuru Yap",
+    "form": {
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "occupation": "Meslek / Uzmanlık Alanı",
+      "skills": "Yetkinlikleriniz ve İlgi Alanlarınız",
+      "message": "Neden Gönüllü Olmak İstiyorsunuz?",
+      "submit": "Başvuruyu Gönder",
+      "submitting": "Gönderiliyor..."
+    },
+    "benefits": {
+      "1": {
+        "title": "Topluma Katkı Sağlayın",
+        "desc": "Yeteneklerinizle topluma faydalı işler yapın."
+      },
+      "2": {
+        "title": "Yeni Beceriler Edinin",
+        "desc": "Farklı alanlarda deneyim kazanarak kendinizi geliştirin."
+      },
+      "3": {
+        "title": "Yeni İnsanlarla Tanışın",
+        "desc": "Sizin gibi düşünen insanlarla tanışıp birlikte çalışın."
+      }
+    }
+  },
+  "pif": {
+    "title": "Partner Identification Form (PIF)",
+    "basicInfo": "Temel Bilgiler",
+    "orgProfile": "Organizasyon Profili",
+    "missionTitle": "Misyon ve Faaliyetler",
+    "projectsTitle": "Erasmus+ Projeleri",
+    "accreditationsTitle": "Akreditasyonlar",
+    "downloadPdf": "PIF Dosyasını İndir",
+    "labels": {
+      "address": "Adres",
+      "type": "Organizasyon Tipi",
+      "nonProfit": "Kar amacı gütmeyen kuruluş",
+      "pic": "PIC Numarası",
+      "oid": "Organization ID",
+      "founded": "Kuruluş Yılı",
+      "totalProjects": "Toplam Proje",
+      "activeProjects": "Aktif Proje",
+      "mission": "Misyonumuz",
+      "activities": "Faaliyetlerimiz",
+      "keyPersonnel": "Anahtar Personel",
+      "legalName": "Yasal Adı",
+      "shortName": "Kısa Adı",
+      "country": "Ülke",
+      "city": "Şehir",
+      "email": "E-posta",
+      "website": "Web Sitesi",
+      "phone": "Telefon"
+    },
+    "content": {
+      "mission": "Misyonumuz, bireylerin topluma katılımını kısıtlayan fiziksel, sosyal, ekonomik veya kültürel engelleri aşmalarına destek olmaktır. Eşit fırsatları, sürekli öğrenmeyi ve toplumsal farkındalığı projelerimizle teşvik ediyoruz.",
+      "activities": "Ender Derneği olarak, engelli bireylerin sosyal entegrasyonu, gençlik çalışanlarının eğitimi, kültürlerarası diyalog ve Erasmus+ projeleri üzerine yoğunlaşıyoruz. Ayrıca Eurodesk temas noktası olarak gençlere Avrupa fırsatları hakkında bilgilendirme yapıyoruz.",
+      "background": "Derneğimiz 2022 yılında Malatya'da kurulmuş olup, kısa sürede bölgedeki en aktif sivil toplum kuruluşlarından biri haline gelmiştir."
+    },
+    "personnel": {
+      "abdulsamet": {
+        "name": "Abdulsamet Kezer",
+        "title": "Kurucu & Dernek Başkanı",
+        "department": "Yönetim Kurulu",
+        "background": "Engelliler için Beden Eğitimi mezunu. Malatya İnönü Üniversitesi'nde Beden Eğitimi Öğretmenliği yüksek lisans öğrencisi."
+      },
+      "safa": {
+        "name": "Safa Okay",
+        "title": "Kurucu Ortak & Dernek Başkan Yardımcısı",
+        "department": "Yönetim Kurulu",
+        "background": "ODTÜ İşletme öğrencisi. Eurodesk Resmi Temsilcisi. Sivil toplum ve Erasmus+ projelerinde deneyimli."
+      },
+      "talha": {
+        "name": "Mahmut Talha Nurlan",
+        "title": "Kurucu Ortak & Proje Yürütücüsü",
+        "department": "Yönetim Kurulu",
+        "background": "İTÜ Elektronik ve Haberleşme Mühendisliği öğrencisi. Uluslararası deneyime sahip kurucu üyelerden."
+      }
+    },
+    "projects": {
+      "coordinator": "Koordinatör",
+      "partner": "Partner",
+      "ongoing": "Devam Ediyor",
+      "completed": "Tamamlandı"
+    }
+  },
+  "team": {
+    "pageTitle": "Engelleri Aşan Güçlü Ekibimiz",
+    "pageDescription": "Genç ve motivasyonlu Türk gençlerden oluşan ekibimizle tanışın. 2022 yılında kurulan derneğimizde, özel gereksinimli bireylerle çalışma deneyimi olan uzmanlar ve Erasmus+ projelerinde deneyimli koordinatörler yer alıyor.",
+    "leadershipTitle": "Yönetim Ekibimiz",
+    "leadershipSubtitle": "Derneğimize yön veren liderlerimiz",
+    "coordinatorsTitle": "Koordinatörlerimiz",
+    "workingGroupsTitle": "Çalışma Gruplarımız",
+    "workingGroupsSubtitle": "Farklı alanlarda uzmanlaşmış gönüllü ekiplerimizle topluma değer katıyoruz",
+    "members": {
+      "1": {
+        "role": "Kurucu & Dernek Başkanı",
+        "bio": "Engelliler için Beden Eğitimi mezunu..."
+      },
+      "2": {
+        "role": "Kurucu Ortak & Dernek Başkan Yardımcısı",
+        "bio": "ODTÜ İşletme öğrencisi..."
+      },
+      "3": {
+        "role": "Kurucu Ortak & Proje Yürütücüsü",
+        "bio": "İTÜ Elektronik Mühendisliği öğrencisi..."
+      },
+      "4": {
+        "role": "Genel Koordinatör"
+      },
+      "5": {
+        "role": "Eurodesk Koordinatörü"
+      },
+      "6": {
+        "role": "Sosyal Medya Koordinatörü"
+      },
+      "7": {
+        "role": "Proje Geliştirme Koordinatörü"
+      },
+      "8": {
+        "role": "İngilizce Konuşma Kulübü Koordinatörü"
+      },
+      "9": {
+        "role": "Psikoloji Grubu Koordinatörü"
+      },
+      "10": {
+        "role": "Özel Eğitim Çalışma Grubu Koordinatörü"
+      },
+      "11": {
+        "role": "Malatya Gönüllü Ekibi Koordinatörü"
+      }
+    },
+    "groups": {
+      "project": "Proje Geliştirme Ekibi",
+      "english": "İngilizce Konuşma Kulübü",
+      "psychology": "Psikoloji Grubu",
+      "special": "Özel Eğitim Çalışma Grubu",
+      "volunteer": "Malatya Gönüllü Ekibi",
+      "coordinator": "Koordinatör",
+      "members": "Ekip Üyeleri"
+    }
+  },
+  "eurodesk": {
+    "officialContactPoint": "Resmi Eurodesk Temas Noktası",
+    "heroTitle": "Avrupa Fırsatlarına",
+    "heroSubtitle": "Açılan Kapınız",
+    "heroDescription": "Malatya Eurodesk Temas Noktası olarak, gençleri Avrupa fırsatlarıyla buluşturuyor, ücretsiz bilgilendirme ve danışmanlık hizmeti sunuyoruz.",
+    "aboutTitle": "Eurodesk Nedir?",
+    "aboutDescription1": "Eurodesk, gençler için eğitim ve gençlik alanlarındaki Avrupa fırsatları ve gençlerin Avrupa faaliyetlerine katılımı hakkında bilgi sağlayan Avrupa Gençlik Bilgi Ağıdır.",
+    "aboutDescription2": "37 Avrupa ülkesinde faaliyette bulunan Eurodesk Bilgi Ağı, ülkemizde de Türk Ulusal Ajansı bünyesinde çalışmalarını sürdürmektedir.",
+    "aboutDescription3": "Ender Derneği olarak, Malatya'daki yetkili Eurodesk Temas Noktası olarak hizmet veriyoruz.",
+    "erasmusProjects": "Erasmus+ Projeleri",
+    "eurodeskAccreditation": "Eurodesk Akreditasyonu",
+    "supportedYouth": "Desteklenen Genç",
+    "services": {
+      "title": "Neler Yapıyoruz?",
+      "description": "Gençlik hareketliliğini ve kişisel gelişimi desteklemek için geniş bir yelpazede hizmetler sunuyoruz.",
+      "englishClubs": "İngilizce Konuşma Kulüpleri",
+      "englishClubsDesc": "Dil bariyerini aşmanız için düzenli pratik imkanı.",
+      "workshops": "Bilgilendirme Atölyeleri",
+      "workshopsDesc": "Erasmus+ ve ESC fırsatlarını detaylıca anlatıyoruz.",
+      "groupTherapy": "Grup Terapileri",
+      "groupTherapyDesc": "Psikolojik destek ve kişisel gelişim çalışmaları.",
+      "culturalTrips": "Kültürel Geziler",
+      "culturalTripsDesc": "Sosyal uyum ve kültürel farkındalık etkinlikleri.",
+      "seminars": "Eğitici Seminerler",
+      "seminarsDesc": "Kariyer gelişimi ve yetkinlik artırma seminerleri.",
+      "projectConsultancy": "Proje Danışmanlığı",
+      "projectConsultancyDesc": "Fikirlerinizi projeye dönüştürmeniz için destek."
+    },
+    "targetGroups": {
+      "title": "Hedef Kitlemiz",
+      "description": "Lise ve üniversite öğrencileri, gençlik çalışanları, engelli bireyler ve Avrupa fırsatlarından yararlanmak isteyen tüm gençler.",
+      "students": "Öğrenciler",
+      "studentsDesc": "Lise ve üniversite öğrencileri",
+      "specialNeeds": "Dezavantajlı Gençler",
+      "specialNeedsDesc": "Özel gereksinimli ve imkanı kısıtlı bireyler",
+      "volunteers": "Gönüllü Adayları",
+      "volunteersDesc": "Gönüllülük yapmak isteyenler",
+      "youthWorkers": "Gençlik Çalışanları",
+      "youthWorkersDesc": "Öğretmenler ve eğitmenler"
+    },
+    "team": {
+      "title": "Eurodesk Ekibimiz",
+      "description": "Sorularınızı yanıtlamak ve size rehberlik etmek için buradayız.",
+      "members": {
+        "abdulsamet": {
+          "name": "Abdulsamet Kezer",
+          "role": "İrtibat Kişisi"
+        },
+        "safa": {
+          "name": "Safa Okay",
+          "role": "İrtibat Kişisi"
+        },
+        "talha": {
+          "name": "Mahmut Talha Nurlan",
+          "role": "İrtibat Kişisi"
+        },
+        "beyza": {
+          "name": "Beyza Nur Acıl",
+          "role": "Genel Koordinatör"
+        },
+        "ceyda": {
+          "name": "Ceyda Gülendam Doğan",
+          "role": "Eurodesk Koordinatörü"
+        },
+        "tugba": {
+          "name": "Tuğba Karadaş",
+          "role": "Sosyal Medya Koordinatörü"
+        },
+        "kader": {
+          "name": "Kader Doğru",
+          "role": "Proje Koordinatörü"
+        },
+        "alperen": {
+          "name": "Alperen Şanlıtürk",
+          "role": "İngilizce Konuşma Kulübü Koordinatörü"
+        },
+        "dilara": {
+          "name": "Dilara Kaşlıoğlu",
+          "role": "Psikoloji Grubu Koordinatörü"
+        },
+        "enes": {
+          "name": "Enes Can Değirmenci",
+          "role": "Özel Eğitim Çalışma Grubu Koordinatörü"
+        },
+        "rahime": {
+          "name": "Rahime Efna Erdem",
+          "role": "Malatya Gönüllü Ekibi Koordinatörü"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Gençler Ne Diyor?",
+      "description": "Projelerimize katılan gençlerin deneyimlerini okuyun.",
+      "elif": {
+        "name": "Elif K.",
+        "role": "Gönüllü",
+        "quote": "Eurodesk sayesinde Erasmus+ fırsatlarını keşfettim."
+      },
+      "ahmet": {
+        "name": "Ahmet Y.",
+        "role": "Katılımcı",
+        "quote": "Vizyonumu genişletmek için eşsiz bir deneyimdi."
+      },
+      "zehra": {
+        "name": "Zehra T.",
+        "role": "Öğrenci",
+        "quote": "ESC başvuru sürecimde ekip bana çok yardımcı oldu."
+      }
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "description": "Eurodesk hakkında merak edilenler",
+      "q1": "Hizmetleriniz ücretli mi?",
+      "a1": "Hayır, Eurodesk kapsamında sunduğumuz tüm bilgilendirme ve danışmanlık hizmetleri tamamen ücretsizdir.",
+      "q2": "Kimler yararlanabilir?",
+      "a2": "13-30 yaş arası herkes yararlanabilir.",
+      "q3": "Nasıl başvurabilirim?",
+      "a3": "Mail veya telefon yoluyla iletişime geçebilirsiniz.",
+      "q4": "Ofisiniz nerede?",
+      "a4": "Malatya şehir merkezindeyiz.",
+      "q5": "İngilizce şart mı?",
+      "a5": "Projeye göre değişir ama genelde temel seviye yeterlidir.",
+      "q6": "Gönüllü olabilir miyim?",
+      "a6": "Evet, yerel gönüllü ekibimize katılabilirsiniz."
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "description": "Sorularınız için bizimle iletişime geçin.",
+      "contactInfo": "İletişim Bilgileri",
+      "workingHours": "Çalışma Saatleri",
+      "mondayFriday": "Pazartesi - Cuma",
+      "saturday": "Cumartesi",
+      "sunday": "Pazar",
+      "socialMedia": "Sosyal Medya",
+      "malatya": "Haritada Biz"
+    },
+    "cta": {
+      "title": "Avrupa Fırsatlarını Keşfetmeye Hazır mısın?",
+      "description": "Hemen bizimle iletişime geç ve hayallerine bir adım daha yaklaş."
+    },
+    "events": {
+      "pageTitle": "Etkinlikler",
+      "pageDescription": "Güncel etkinliklerimiz, eğitimlerimiz ve atölye çalışmalarımız",
+      "noEvents": "Etkinlik Bulunamadı",
+      "noEventsDescription": "Şu anda listelenecek etkinlik bulunmuyor. Lütfen daha sonra tekrar kontrol edin.",
+      "readMore": "Detayları Gör",
+      "categories": {
+        "all": "Tümü",
+        "upcoming": "Yaklaşanlar",
+        "past": "Geçmiş Etkinlikler"
+      },
+      "badges": {
+        "upcoming": "Yaklaşıyor",
+        "completed": "Tamamlandı"
+      },
+      "months": {
+        "Jan": "Ocak",
+        "Feb": "Şubat",
+        "Mar": "Mart",
+        "Apr": "Nisan",
+        "May": "Mayıs",
+        "Jun": "Haziran",
+        "Jul": "Temmuz",
+        "Aug": "Ağustos",
+        "Sep": "Eylül",
+        "Oct": "Ekim",
+        "Nov": "Kasım",
+        "Dec": "Aralık",
+        "Oca": "Ocak",
+        "Sub": "Şubat",
+        "Nis": "Nisan",
+        "Haz": "Haziran",
+        "Tem": "Temmuz",
+        "Agu": "Ağustos",
+        "Eyl": "Eylül",
+        "Eki": "Ekim",
+        "Kas": "Kasım",
+        "Ara": "Aralık"
+      },
+      "modal": {
+        "requirements": "Tarih & Saat:",
+        "close": "Kapat",
+        "location": "Yer:"
+      },
+      "items": {
+        "1": {
+          "title": "Erasmus + kampı",
+          "description": "Erasmus+ programı hakkında bilgilendirme ve deneyim paylaşımı.",
+          "location": "Ankara",
+          "time": "10:00 - 17:00",
+          "day": "15",
+          "month": "Oca"
+        },
+        "2": {
+          "title": "Kano etkinliği",
+          "description": "Doğayla iç içe keyifli bir kano deneyimi.",
+          "location": "Ankara Göleti",
+          "time": "14:00 - 18:00",
+          "day": "20",
+          "month": "Oca"
+        },
+        "3": {
+          "title": "Etkili LinkedIn kullanımı",
+          "description": "İş dünyasında fark yaratmak için LinkedIn'i etkili kullanma teknikleri.",
+          "location": "Çevrimiçi",
+          "time": "19:00 - 21:00",
+          "day": "25",
+          "month": "Oca"
+        },
+        "4": {
+          "title": "Çanta boyama etkinliği",
+          "description": "Kendi çantanı kendin boya, yaratıcılığını konuştur!",
+          "location": "Sanat Atölyesi",
+          "time": "13:00 - 16:00",
+          "day": "30",
+          "month": "Oca"
+        },
+        "5": {
+          "title": "At binme etkinliği",
+          "description": "At binme deneyimi ve temel binicilik eğitimi.",
+          "location": "Ankara Binicilik Kulübü",
+          "time": "11:00 - 16:00"
+        },
+        "6": {
+          "title": "CV ve motivasyon mektubu eğitimi",
+          "description": "Etkili CV ve motivasyon mektubu yazma teknikleri.",
+          "location": "Kariyer Merkezi",
+          "time": "14:00 - 16:00"
+        },
+        "7": {
+          "title": "Avrupa fırsatları",
+          "description": "Avrupa'da eğitim ve kariyer fırsatları hakkında bilgilendirme.",
+          "location": "Ankara",
+          "time": "13:00 - 17:00"
+        },
+        "8": {
+          "title": "Engelsiz Spor Günü",
+          "description": "Engelli bireyler için düzenlenen spor etkinlikleri ve yarışmalar.",
+          "location": "İstanbul Olimpiyat Parkı",
+          "time": "10:00 - 16:00"
+        },
+        "9": {
+          "title": "Engelsiz Eğitim Semineri",
+          "description": "Engelli bireylerin eğitim hakkı ve kapsayıcı eğitim uygulamaları konulu seminer.",
+          "location": "Ankara Üniversitesi Kongre Merkezi",
+          "time": "13:00 - 17:00"
+        },
+        "10": {
+          "title": "Engelsiz Yaşam Festivali",
+          "description": "Engelsiz Yaşam Festivali'nde birbirinden renkli etkinlikler sizleri bekliyor!",
+          "location": "İstanbul Kongre Merkezi",
+          "time": "11:00 - 19:00"
+        }
+      }
+    }
+  },
+  "events": {
+    "items": {
+      "1": {
+        "title": "Erasmus + kampı",
+        "location": "Ankara",
+        "time": "10:00 - 17:00",
+        "day": "15",
+        "month": "Oca"
+      },
+      "2": {
+        "title": "Kano etkinliği",
+        "location": "Ankara Göleti",
+        "time": "14:00 - 18:00",
+        "day": "20",
+        "month": "Oca"
+      },
+      "3": {
+        "title": "Etkili LinkedIn kullanımı",
+        "location": "Çevrimiçi",
+        "time": "19:00 - 21:00",
+        "day": "25",
+        "month": "Oca"
+      },
+      "4": {
+        "title": "Çanta boyama etkinliği",
+        "location": "Sanat Atölyesi",
+        "time": "13:00 - 16:00",
+        "day": "30",
+        "month": "Oca"
+      }
+    }
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "home": "Ana Sayfa",
+    "about": "Hakkında",
+    "contact": "İletişim"
+  }
+}
