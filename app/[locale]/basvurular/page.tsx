@@ -38,6 +38,7 @@ import {
   Accessibility,
   UserCheck,
   Loader2,
+  Upload,
 } from "lucide-react"
 
 // --- Type Definitions ---
@@ -154,7 +155,9 @@ function ApplicationCard({ application, isCompleted = false }: ApplicationCardPr
   const [showSuccess, setShowSuccess] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
   
-  // DÜZELTME: API 'name' bekliyor, bu yüzden state anahtarını 'fullName' yerine 'name' yaptık
+  // Dosya yükleme için state
+  const [selectedFile, setSelectedFile] = useState<File | null>(null)
+
   const [applicationForm, setApplicationForm] = useState({
     name: "", 
     email: "",
@@ -168,16 +171,27 @@ function ApplicationCard({ application, isCompleted = false }: ApplicationCardPr
     setIsSubmitting(true)
 
     try {
+      // JSON yerine FormData kullanıyoruz
+      const formData = new FormData()
+      
+      // Form alanlarını ekle
+      formData.append("type", "application")
+      formData.append("applicationTitle", application.title)
+      formData.append("name", applicationForm.name)
+      formData.append("email", applicationForm.email)
+      formData.append("phone", applicationForm.phone)
+      formData.append("experience", applicationForm.experience)
+      formData.append("motivation", applicationForm.motivation)
+      
+      // Dosya varsa ekle - Referans kodunda olduğu gibi 'cv' anahtarı ile gönderiyoruz
+      if (selectedFile) {
+        formData.append("cv", selectedFile)
+      }
+
       const response = await fetch("/api/send-email", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          type: 'application',
-          ...applicationForm,
-          applicationTitle: application.title,
-        }),
+        // Content-Type header'ını sildik, fetch FormData ile otomatik ayarlayacak
+        body: formData,
       })
 
       if (!response.ok) {
@@ -194,6 +208,7 @@ function ApplicationCard({ application, isCompleted = false }: ApplicationCardPr
           experience: "",
           motivation: "",
         })
+        setSelectedFile(null) // Dosyayı temizle
         setIsApplying(false)
         setShowSuccess(false)
       }, 2000)
@@ -614,7 +629,7 @@ function ApplicationCard({ application, isCompleted = false }: ApplicationCardPr
                     {t("apply")}
                   </Button>
                 </DialogTrigger>
-                <DialogContent className="max-w-md">
+                <DialogContent className="max-w-md max-h-[90vh] overflow-y-auto">
                   <DialogHeader>
                     <DialogTitle>{application.title}</DialogTitle>
                     <DialogDescription>{t("applicationFormDescription")}</DialogDescription>
@@ -688,6 +703,32 @@ function ApplicationCard({ application, isCompleted = false }: ApplicationCardPr
                           value={applicationForm.motivation}
                           onChange={(e) => setApplicationForm({ ...applicationForm, motivation: e.target.value })}
                         />
+                      </div>
+
+                      {/* DOSYA YÜKLEME BÖLÜMÜ */}
+                      <div className="space-y-2 border-2 border-dashed border-gray-200 rounded-lg p-4 bg-gray-50/50 hover:bg-gray-50 transition-colors">
+                        <Label htmlFor="file" className="text-sm font-medium text-gray-700 flex items-center gap-2">
+                          <Upload className="h-4 w-4 text-[#571213]" />
+                          CV / Ek Dosya Yükle
+                        </Label>
+                        <div className="relative group">
+                          <Input
+                            id="file"
+                            type="file"
+                            onChange={(e) => setSelectedFile(e.target.files ? e.target.files[0] : null)}
+                            className="cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-[#571213] file:text-white hover:file:bg-[#571213]/90 pt-1"
+                            accept=".pdf,.doc,.docx,.jpg,.png"
+                          />
+                        </div>
+                        <div className="flex items-center justify-between text-xs text-muted-foreground mt-1">
+                          <span>PDF, DOC, DOCX, JPG, PNG (Maks. 5MB)</span>
+                          {selectedFile && (
+                            <span className="text-green-600 font-medium flex items-center gap-1">
+                              <CheckCircle className="h-3 w-3" />
+                              Dosya seçildi
+                            </span>
+                          )}
+                        </div>
                       </div>
 
                       <div className="flex justify-end gap-2 pt-4">
