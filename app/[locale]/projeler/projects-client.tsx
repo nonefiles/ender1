@@ -163,7 +163,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, onViewDetails
               className="absolute inset-0 w-full h-full object-cover transition-transform hover:scale-105 duration-300"
               onError={(e) => {
                  const target = e.target as HTMLImageElement;
-                 target.style.display = 'none'; 
+                 if (target) target.style.display = 'none'; 
               }}
             />
           </div>
@@ -237,7 +237,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index, onViewDetails
             </div>
             
             <div className="flex flex-wrap gap-1 mt-4">
-              {project.tags.map((tag) => (
+              {/* Güvenlik kontrolü: tags undefined olabilir */}
+              {project.tags?.map((tag) => (
                 <Badge key={tag} variant="secondary" className="text-xs">
                   {tag}
                 </Badge>
@@ -300,7 +301,7 @@ const ProjectDetailsModal: React.FC<{
                 className="absolute inset-0 w-full h-full object-cover"
                 onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.style.display = 'none'; 
+                    if (target) target.style.display = 'none'; 
                   }}
               />
               <div className="absolute bottom-0 left-0 right-0 z-20 p-6 text-white">
@@ -348,9 +349,15 @@ const ProjectDetailsModal: React.FC<{
 
           <div className="p-6 space-y-6">
             <div className="prose max-w-none">
-              <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
-                {project.details}
+              <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed font-medium">
+                {project.description}
               </p>
+              
+              {project.details && (
+                <p className="text-gray-600 dark:text-gray-400 text-base leading-relaxed border-l-4 border-gray-200 pl-4 mt-4">
+                  {project.details}
+                </p>
+              )}
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -439,7 +446,8 @@ const ProjectDetailsModal: React.FC<{
             <div>
               <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-3">Etiketler</h3>
               <div className="flex flex-wrap gap-2">
-                {project.tags.map((tag) => (
+                {/* Güvenlik kontrolü: tags undefined olabilir */}
+                {project.tags?.map((tag) => (
                   <Badge key={tag} variant="secondary" className="px-4 py-1.5 text-sm">
                     #{tag}
                   </Badge>
@@ -460,11 +468,12 @@ const ProjectDetailsModal: React.FC<{
   );
 };
 
-export default function ProjectsClient({ projects, locale, t: tProp }: ProjectsClientProps) {
+export default function ProjectsClient({ projects = [], locale, t: tProp }: ProjectsClientProps) {
   // Çeviri fonksiyonu: Önce prop olarak gelen t objesine bakar, bulamazsa yerel yedeğe düşer.
   const t = (key: string): string => {
     // Nested obje erişimi için yardımcı fonksiyon
     const resolve = (obj: any, path: string) => {
+      if (!obj) return null;
       return path.split('.').reduce((prev, curr) => prev ? prev[curr] : null, obj);
     };
 
@@ -482,16 +491,19 @@ export default function ProjectsClient({ projects, locale, t: tProp }: ProjectsC
     return key;
   };
 
+  // Güvenlik: projects undefined ise boş dizi kullan
+  const safeProjects = Array.isArray(projects) ? projects : [];
+
   // Kategori listesini oluştururken varsayılan "Tümü" seçeneği ve projelerden gelen kategorileri alıyoruz
-  const categories = [t('categories.all'), ...Array.from(new Set(projects.map(project => project.category)))];
+  const categories = [t('categories.all'), ...Array.from(new Set(safeProjects.map(project => project.category || ''))).filter(Boolean)];
 
   const [selectedCategory, setSelectedCategory] = useState<string>(t('categories.all'));
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const filteredProjects = selectedCategory === t('categories.all')
-    ? projects 
-    : projects.filter(project => project.category === selectedCategory);
+    ? safeProjects 
+    : safeProjects.filter(project => project.category === selectedCategory);
 
   const handleViewDetails = (project: Project) => {
     setSelectedProject(project);
