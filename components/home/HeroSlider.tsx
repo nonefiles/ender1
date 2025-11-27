@@ -50,7 +50,7 @@ export function HeroSlider() {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide()
-    }, 10000) // Süre 10 saniyeye çıkarıldı
+    }, 10000) // Süre 10 saniye
     return () => clearInterval(interval)
   }, [nextSlide, currentSlide])
 
@@ -141,39 +141,25 @@ export function HeroSlider() {
         </motion.div>
       </AnimatePresence>
 
-      {/* Navigasyon Kontrolleri (Masaüstünde sağ alt, Mobilde gizli/basit) */}
-      <div className="absolute bottom-8 right-8 hidden md:flex items-center gap-4 z-20">
+      {/* Navigasyon Kontrolleri - Artık mobilde de sağ altta görünecek */}
+      <div className="absolute bottom-8 right-4 sm:right-8 flex items-center gap-2 sm:gap-4 z-20">
         <div className="flex gap-2">
             <button
                 onClick={prevSlide}
-                className="p-4 rounded-full border border-white/30 text-white hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm group-hover:border-white/60"
+                className="p-3 sm:p-4 rounded-full border border-white/30 text-white hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm group-hover:border-white/60"
                 aria-label={t("homepage.hero.prevSlide")}
             >
-                <ChevronLeft className="h-6 w-6" />
+                <ChevronLeft className="h-5 w-5 sm:h-6 sm:w-6" />
             </button>
             <button
                 onClick={nextSlide}
-                className="p-4 rounded-full border border-white/30 text-white hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm group-hover:border-white/60"
+                className="p-3 sm:p-4 rounded-full border border-white/30 text-white hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm group-hover:border-white/60"
                 aria-label={t("homepage.hero.nextSlide")}
             >
-                <ChevronRight className="h-6 w-6" />
+                <ChevronRight className="h-5 w-5 sm:h-6 sm:w-6" />
             </button>
         </div>
       </div>
-
-      {/* Mobilde ok tuşları (Basit ve kenarlarda) */}
-      <button
-        onClick={prevSlide}
-        className="md:hidden absolute left-2 top-1/2 -translate-y-1/2 p-2 text-white/70 hover:text-white z-20"
-      >
-        <ChevronLeft className="h-8 w-8" />
-      </button>
-      <button
-        onClick={nextSlide}
-        className="md:hidden absolute right-2 top-1/2 -translate-y-1/2 p-2 text-white/70 hover:text-white z-20"
-      >
-        <ChevronRight className="h-8 w-8" />
-      </button>
 
       {/* İlerleme Göstergeleri (Çizgi şeklinde) */}
       <div className="absolute bottom-8 left-4 md:left-8 flex space-x-2 z-20">
